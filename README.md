@@ -1,15 +1,15 @@
-#Synopsis
+##Synopsis
 
 **az0t** is a program written in java which allows automatic login and reconnection to zeroshell.
 
-#Prerequesties
+##Prerequesties
 
 In order to work, **az0t** requires a fully functionnal java runtime environment.
 You can grab one [here](https://www.java.com/)
 
 Compiled binaries are available in *az0t.zip*
 
-#Editing configuration
+##Editing configuration
 
 Edit the configuration with your username and password
 
@@ -26,7 +26,7 @@ $ vim config.xml
 </root>
 ```
 
-#Usage
+##Usage
 
 
 ```shell
@@ -37,7 +37,7 @@ $ java -jar az0t.jar -m    # start the monitor mode
 ```
 
 
-#About sources
+##About sources
 
 The sources are available under the GNU-GPL v3.0 license. 
 Howewer, this program use the jsoup library under the MIT license.
